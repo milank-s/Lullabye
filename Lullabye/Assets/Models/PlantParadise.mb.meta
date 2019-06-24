@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 5eb442a33fddea14a801cededd6d241b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: PlantBase
+    100002: Plantbase
+    100004: PlantBase1
+    100006: PlantBase2
+    100008: PlantBase3
+    100010: PlantBase4
+    100012: PlantBase5
+    100014: PlantBase6
+    100016: PlantBase7
+    100018: PlantCombined
+    100020: //RootNode
+    100022: BirdOfParadise
+    100024: Dirt
+    100026: Planter
+    100028: Branch
+    100030: Branch1
+    100032: Branch10
+    100034: Branch11
+    100036: Branch12
+    100038: Branch13
+    100040: Branch14
+    100042: Branch15
+    100044: Branch16
+    100046: Branch2
+    100048: Branch3
+    100050: Branch4
+    100052: Branch5
+    100054: Branch6
+    100056: Branch7
+    100058: Branch8
+    100060: Branch9
+    100062: MetalPlanter
+    100064: Stalk
+    100066: transform1
+    100068: transform10
+    100070: transform11
+    100072: transform12
+    100074: transform13
+    100076: transform14
+    100078: transform15
+    100080: transform16
+    100082: transform2
+    100084: transform3
+    100086: transform4
+    100088: transform5
+    100090: transform6
+    100092: transform7
+    100094: transform8
+    100096: transform9
+    100098: Trifolium
+    100100: Trifolium 1
+    100102: Trifolium 10
+    100104: Trifolium 11
+    100106: Trifolium 12
+    100108: Trifolium 13
+    100110: Trifolium 14
+    100112: Trifolium 15
+    100114: Trifolium 16
+    100116: Trifolium 2
+    100118: Trifolium 3
+    100120: Trifolium 4
+    100122: Trifolium 5
+    100124: Trifolium 6
+    100126: Trifolium 7
+    100128: Trifolium 8
+    100130: Trifolium 9
+    100132: Oxalis
+    100134: Oxalis 1
+    100136: Oxalis1
+    100138: TrifoliumBranch1
+    400000: PlantBase
+    400002: Plantbase
+    400004: PlantBase1
+    400006: PlantBase2
+    400008: PlantBase3
+    400010: PlantBase4
+    400012: PlantBase5
+    400014: PlantBase6
+    400016: PlantBase7
+    400018: PlantCombined
+    400020: //RootNode
+    400022: BirdOfParadise
+    400024: Dirt
+    400026: Planter
+    400028: Branch
+    400030: Branch1
+    400032: Branch10
+    400034: Branch11
+    400036: Branch12
+    400038: Branch13
+    400040: Branch14
+    400042: Branch15
+    400044: Branch16
+    400046: Branch2
+    400048: Branch3
+    400050: Branch4
+    400052: Branch5
+    400054: Branch6
+    400056: Branch7
+    400058: Branch8
+    400060: Branch9
+    400062: MetalPlanter
+    400064: Stalk
+    400066: transform1
+    400068: transform10
+    400070: transform11
+    400072: transform12
+    400074: transform13
+    400076: transform14
+    400078: transform15
+    400080: transform16
+    400082: transform2
+    400084: transform3
+    400086: transform4
+    400088: transform5
+    400090: transform6
+    400092: transform7
+    400094: transform8
+    400096: transform9
+    400098: Trifolium
+    400100: Trifolium 1
+    400102: Trifolium 10
+    400104: Trifolium 11
+    400106: Trifolium 12
+    400108: Trifolium 13
+    400110: Trifolium 14
+    400112: Trifolium 15
+    400114: Trifolium 16
+    400116: Trifolium 2
+    400118: Trifolium 3
+    400120: Trifolium 4
+    400122: Trifolium 5
+    400124: Trifolium 6
+    400126: Trifolium 7
+    400128: Trifolium 8
+    400130: Trifolium 9
+    400132: Oxalis
+    400134: Oxalis 1
+    400136: Oxalis1
+    400138: TrifoliumBranch1
+    2100000: lambert1
+    2300000: PlantBase
+    2300002: PlantCombined
+    2300004: Dirt
+    2300006: Planter
+    2300008: Branch
+    2300010: Branch1
+    2300012: Branch10
+    2300014: Branch11
+    2300016: Branch12
+    2300018: Branch13
+    2300020: Branch14
+    2300022: Branch15
+    2300024: Branch16
+    2300026: Branch2
+    2300028: Branch3
+    2300030: Branch4
+    2300032: Branch5
+    2300034: Branch6
+    2300036: Branch7
+    2300038: Branch8
+    2300040: Branch9
+    2300042: MetalPlanter
+    2300044: Stalk
+    2300046: Trifolium
+    2300048: Trifolium 1
+    2300050: Trifolium 10
+    2300052: Trifolium 11
+    2300054: Trifolium 12
+    2300056: Trifolium 13
+    2300058: Trifolium 14
+    2300060: Trifolium 15
+    2300062: Trifolium 16
+    2300064: Trifolium 2
+    2300066: Trifolium 3
+    2300068: Trifolium 4
+    2300070: Trifolium 5
+    2300072: Trifolium 6
+    2300074: Trifolium 7
+    2300076: Trifolium 8
+    2300078: Trifolium 9
+    2300080: Oxalis 1
+    2300082: Oxalis1
+    2300084: TrifoliumBranch1
+    3300000: PlantBase
+    3300002: PlantCombined
+    3300004: Dirt
+    3300006: Planter
+    3300008: Branch
+    3300010: Branch1
+    3300012: Branch10
+    3300014: Branch11
+    3300016: Branch12
+    3300018: Branch13
+    3300020: Branch14
+    3300022: Branch15
+    3300024: Branch16
+    3300026: Branch2
+    3300028: Branch3
+    3300030: Branch4
+    3300032: Branch5
+    3300034: Branch6
+    3300036: Branch7
+    3300038: Branch8
+    3300040: Branch9
+    3300042: MetalPlanter
+    3300044: Stalk
+    3300046: Trifolium
+    3300048: Trifolium 1
+    3300050: Trifolium 10
+    3300052: Trifolium 11
+    3300054: Trifolium 12
+    3300056: Trifolium 13
+    3300058: Trifolium 14
+    3300060: Trifolium 15
+    3300062: Trifolium 16
+    3300064: Trifolium 2
+    3300066: Trifolium 3
+    3300068: Trifolium 4
+    3300070: Trifolium 5
+    3300072: Trifolium 6
+    3300074: Trifolium 7
+    3300076: Trifolium 8
+    3300078: Trifolium 9
+    3300080: Oxalis 1
+    3300082: Oxalis1
+    3300084: TrifoliumBranch1
+    4300000: PlantBase
+    4300002: PlantCombined
+    4300004: Planter
+    4300006: Dirt
+    4300008: MetalPlanter
+    4300010: Branch
+    4300012: Trifolium
+    4300014: Stalk
+    4300016: Branch1
+    4300018: Branch2
+    4300020: Branch3
+    4300022: Branch4
+    4300024: Branch5
+    4300026: Branch6
+    4300028: Branch7
+    4300030: Branch8
+    4300032: Branch9
+    4300034: Branch10
+    4300036: Branch11
+    4300038: Branch12
+    4300040: Branch13
+    4300042: Branch14
+    4300044: Branch15
+    4300046: Branch16
+    4300048: Trifolium
+    4300050: Trifolium
+    4300052: Trifolium
+    4300054: Trifolium
+    4300056: Trifolium
+    4300058: Trifolium
+    4300060: Trifolium
+    4300062: Trifolium
+    4300064: Trifolium
+    4300066: Trifolium
+    4300068: Trifolium
+    4300070: Trifolium
+    4300072: Trifolium
+    4300074: Trifolium
+    4300076: Trifolium
+    4300078: Trifolium
+    4300080: TrifoliumBranch1
+    4300082: Oxalis
+    4300084: Oxalis1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
