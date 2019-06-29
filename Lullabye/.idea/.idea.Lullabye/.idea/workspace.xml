@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a3a70ec-bb5e-4ff6-a8d8-851466c0016e" name="Default Changelist" comment="" />
+    <list default="true" id="8a3a70ec-bb5e-4ff6-a8d8-851466c0016e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lullabye/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lullabye/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lullabye/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lullabye/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/DriveBy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/DriveBy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarLights.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarLights.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +51,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarLights.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
-                <marker date="1561346352703" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561346352703" expanded="true" signature="118:655" ph="{...}" />
-                <marker date="1561346352703" expanded="true" signature="313:334" ph="{...}" />
-                <marker date="1561346352703" expanded="true" signature="392:653" ph="{...}" />
-                <marker date="1561346352703" expanded="true" signature="446:647" ph="{...}" />
+                <marker date="1561607570254" expanded="false" signature="6:78" ph="..." />
+                <marker date="1561607570254" expanded="true" signature="118:799" ph="{...}" />
+                <marker date="1561607570254" expanded="true" signature="369:390" ph="{...}" />
+                <marker date="1561607570254" expanded="true" signature="448:797" ph="{...}" />
+                <marker date="1561607570254" expanded="true" signature="574:791" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="47" column="77" lean-forward="true" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
+              <folding>
+                <marker date="1561669817146" expanded="false" signature="6:78" ph="..." />
+                <marker date="1561669817146" expanded="true" signature="122:2174" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="418:551" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="499:545" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="609:2172" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="717:803" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="843:2166" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="991:1095" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="1164:1270" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="1340:1446" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="1512:1615" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="1682:1785" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="1856:1964" ph="{...}" />
+                <marker date="1561669817146" expanded="true" signature="2036:2144" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,15 +94,20 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Materials/Shaders/SpriteWithShadows.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarLights.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Materials/Shaders/Billboard.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarLights.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CarLights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -80,19 +117,22 @@
     <option name="width" value="1932" />
     <option name="height" value="1045" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -141,11 +181,13 @@
       <updated>1560792443436</updated>
       <workItem from="1560792447922" duration="687000" />
       <workItem from="1561341791243" duration="769000" />
+      <workItem from="1561605361636" duration="1316000" />
+      <workItem from="1561667280405" duration="2643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1456000" />
+    <option name="totallyTimeSpent" value="5415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -160,7 +202,7 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25801283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -236,14 +278,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarLights.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        <state relative-caret-position="323">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
-            <marker date="1561346352703" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561346352703" expanded="true" signature="118:655" ph="{...}" />
-            <marker date="1561346352703" expanded="true" signature="313:334" ph="{...}" />
-            <marker date="1561346352703" expanded="true" signature="392:653" ph="{...}" />
-            <marker date="1561346352703" expanded="true" signature="446:647" ph="{...}" />
+            <marker date="1561607570254" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561607570254" expanded="true" signature="118:799" ph="{...}" />
+            <marker date="1561607570254" expanded="true" signature="369:390" ph="{...}" />
+            <marker date="1561607570254" expanded="true" signature="448:797" ph="{...}" />
+            <marker date="1561607570254" expanded="true" signature="574:791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="47" column="77" lean-forward="true" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
+          <folding>
+            <marker date="1561669817146" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561669817146" expanded="true" signature="122:2174" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="418:551" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="499:545" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="609:2172" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="717:803" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="843:2166" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="991:1095" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="1164:1270" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="1340:1446" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="1512:1615" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="1682:1785" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="1856:1964" ph="{...}" />
+            <marker date="1561669817146" expanded="true" signature="2036:2144" ph="{...}" />
           </folding>
         </state>
       </provider>
