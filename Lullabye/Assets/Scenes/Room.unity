@@ -386,7 +386,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0.077089384, b: 0.8207547, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -402,7 +402,7 @@ Camera:
   far clip plane: 50
   field of view: 100
   orthographic: 1
-  orthographic size: 4.5
+  orthographic size: 20
   m_Depth: -4
   m_CullingMask:
     serializedVersion: 2
@@ -500,7 +500,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 279
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -5828,6 +5828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 1822218842}
+  dissembleSpeed: 0.5
   room: {fileID: 1517429351}
   walls:
   - {fileID: 842027889}
@@ -6670,9 +6671,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034872002}
-  m_Text: 'are you awake while
-
-    everyone else is asleep'
+  m_Text: go to bed
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -6685,7 +6684,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 91efe162cbe010a4391a366cf9e6a52e, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294901769
 --- !u!23 &2034872004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6731,7 +6730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034872002}
   m_LocalRotation: {x: -0, y: -0.78966206, z: -0, w: 0.6135421}
-  m_LocalPosition: {x: 2.2581835, y: -0.79999995, z: -5.63}
+  m_LocalPosition: {x: 2.2581835, y: 3.65, z: -2.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
