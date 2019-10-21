@@ -586,18 +586,23 @@
         <e p="Scripts" t="Include">
           <e p="Airplane.cs" t="Include" />
           <e p="Airplanes.cs" t="Include" />
+          <e p="Breathe.cs" t="Include" />
           <e p="CarLights.cs" t="Include" />
           <e p="Earth.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
           <e p="Manager.cs" t="Include" />
+          <e p="MapleCopter.cs" t="Include" />
           <e p="Prop.cs" t="Include" />
+          <e p="Record.cs" t="Include" />
           <e p="Room.cs" t="Include" />
           <e p="RoomBehaviour.cs" t="Include" />
+          <e p="Rotate.cs" t="Include" />
           <e p="SimpleJSON" t="Include">
             <e p="SimpleJSON.cs" t="Include" />
             <e p="SimpleJSONBinary.cs" t="Include" />
             <e p="SimpleJSONUnity.cs" t="Include" />
           </e>
+          <e p="Tree.cs" t="Include" />
         </e>
         <e p="ThirdPartyAssets" t="Include">
           <e p="WoLfulus" t="Include">

@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: 3c584a4e73452164e87135d8522d6f13
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Copter
+    100004: Seed
+    100006: bezier1
+    100008: bezier2
+    100010: bezier3
+    100012: Branch
+    100014: Branch1
+    100016: Branch2
+    100018: group1
+    100020: pCube3
+    100022: Trunk
+    100024: Branch3
+    100026: Branch10
+    100028: Branch11
+    100030: Branch4
+    100032: Branch5
+    100034: Branch6
+    100036: Branch7
+    100038: Branch8
+    100040: Branch9
+    100042: Copter 1
+    100044: Trunk1
+    100046: Branch12
+    100048: Branch13
+    100050: Branch14
+    100052: Tree
+    100054: Trunk2
+    100056: Branch15
+    100058: Branch16
+    100060: RightCopter
+    100062: Branch18
+    100064: Branch19
+    100066: Branch20
+    100068: Branch21
+    100070: Branch22
+    100072: Branch23
+    100074: Branch24
+    100076: Branch25
+    100078: Branch28
+    100080: Branch31
+    100082: Branch33
+    100084: Branch34
+    100086: Branch35
+    100088: Branch36
+    100090: Branch37
+    100092: Branch38
+    100094: Branch39
+    100096: Leaf17
+    100098: Leaf18
+    100100: Leaf19
+    100102: Leaf20
+    100104: Leaf21
+    100106: Leaf22
+    100108: Leaf23
+    100110: Leaf24
+    100112: Leaf7
+    100114: Leaf25
+    100116: Leaf26
+    100118: Leaf27
+    100120: Leaf28
+    100122: Leaf29
+    100124: Leaf30
+    100126: Leaf31
+    100128: Leaf32
+    100130: Leaves
+    100132: Modules
+    100134: Tree 1
+    100136: Leaves1
+    100138: Leaves2
+    100140: Ground
+    100142: Leaf33
+    100144: Leaf33 1
+    100146: Leaf38
+    100148: Leaf38 1
+    100150: Leaf39
+    100152: Leaf39 1
+    100154: Leaf40
+    100156: Leaf40 1
+    100158: Leaf41
+    100160: Leaf41 1
+    100162: Leaf42
+    100164: Leaf42 1
+    100166: Leaf43
+    100168: Leaf43 1
+    100170: Leaves 1
+    100172: Leaves 2
+    100174: Leaves1 1
+    100176: Leaves2 1
+    100178: MapleTree
+    100180: Leaf44
+    100182: Leaf45
+    100184: Leaf46
+    100186: Leaf47
+    100188: Leaves3
+    100190: Leaves4
+    100192: Leaves10
+    100194: Leaves11
+    100196: Leaves5
+    100198: Leaves6
+    100200: Leaves7
+    100202: Leaves8
+    100204: Leaves9
+    400000: //RootNode
+    400002: Copter
+    400004: Seed
+    400006: bezier1
+    400008: bezier2
+    400010: bezier3
+    400012: Branch
+    400014: Branch1
+    400016: Branch2
+    400018: group1
+    400020: pCube3
+    400022: Trunk
+    400024: Branch3
+    400026: Branch10
+    400028: Branch11
+    400030: Branch4
+    400032: Branch5
+    400034: Branch6
+    400036: Branch7
+    400038: Branch8
+    400040: Branch9
+    400042: Copter 1
+    400044: Trunk1
+    400046: Branch12
+    400048: Branch13
+    400050: Branch14
+    400052: Tree
+    400054: Trunk2
+    400056: Branch15
+    400058: Branch16
+    400060: RightCopter
+    400062: Branch18
+    400064: Branch19
+    400066: Branch20
+    400068: Branch21
+    400070: Branch22
+    400072: Branch23
+    400074: Branch24
+    400076: Branch25
+    400078: Branch28
+    400080: Branch31
+    400082: Branch33
+    400084: Branch34
+    400086: Branch35
+    400088: Branch36
+    400090: Branch37
+    400092: Branch38
+    400094: Branch39
+    400096: Leaf17
+    400098: Leaf18
+    400100: Leaf19
+    400102: Leaf20
+    400104: Leaf21
+    400106: Leaf22
+    400108: Leaf23
+    400110: Leaf24
+    400112: Leaf7
+    400114: Leaf25
+    400116: Leaf26
+    400118: Leaf27
+    400120: Leaf28
+    400122: Leaf29
+    400124: Leaf30
+    400126: Leaf31
+    400128: Leaf32
+    400130: Leaves
+    400132: Modules
+    400134: Tree 1
+    400136: Leaves1
+    400138: Leaves2
+    400140: Ground
+    400142: Leaf33
+    400144: Leaf33 1
+    400146: Leaf38
+    400148: Leaf38 1
+    400150: Leaf39
+    400152: Leaf39 1
+    400154: Leaf40
+    400156: Leaf40 1
+    400158: Leaf41
+    400160: Leaf41 1
+    400162: Leaf42
+    400164: Leaf42 1
+    400166: Leaf43
+    400168: Leaf43 1
+    400170: Leaves 1
+    400172: Leaves 2
+    400174: Leaves1 1
+    400176: Leaves2 1
+    400178: MapleTree
+    400180: Leaf44
+    400182: Leaf45
+    400184: Leaf46
+    400186: Leaf47
+    400188: Leaves3
+    400190: Leaves4
+    400192: Leaves10
+    400194: Leaves11
+    400196: Leaves5
+    400198: Leaves6
+    400200: Leaves7
+    400202: Leaves8
+    400204: Leaves9
+    2100000: lambert1
+    2300000: Copter
+    2300002: Seed
+    2300004: Branch
+    2300006: Branch1
+    2300008: Branch2
+    2300010: pCube3
+    2300012: Trunk
+    2300014: Branch3
+    2300016: Branch10
+    2300018: Branch11
+    2300020: Branch4
+    2300022: Branch5
+    2300024: Branch6
+    2300026: Branch7
+    2300028: Branch8
+    2300030: Branch9
+    2300032: Copter 1
+    2300034: Trunk1
+    2300036: Branch12
+    2300038: Branch13
+    2300040: Branch14
+    2300042: Trunk2
+    2300044: Branch15
+    2300046: Branch16
+    2300048: RightCopter
+    2300050: Branch19
+    2300052: Branch20
+    2300054: Branch21
+    2300056: Branch22
+    2300058: Branch23
+    2300060: Branch24
+    2300062: Branch25
+    2300064: Branch33
+    2300066: Branch34
+    2300068: Branch35
+    2300070: Branch36
+    2300072: Branch37
+    2300074: Branch38
+    2300076: Branch39
+    2300078: Leaf17
+    2300080: Leaf18
+    2300082: Leaf19
+    2300084: Leaf20
+    2300086: Leaf21
+    2300088: Leaf22
+    2300090: Leaf23
+    2300092: Leaf24
+    2300094: Leaf7
+    2300096: Leaf25
+    2300098: Leaf26
+    2300100: Leaf27
+    2300102: Leaf28
+    2300104: Leaf29
+    2300106: Leaf30
+    2300108: Leaf31
+    2300110: Leaf32
+    2300112: Leaves
+    2300114: Tree
+    2300116: Leaves1
+    2300118: Leaves2
+    2300120: Leaf33
+    2300122: Leaf33 1
+    2300124: Leaf38
+    2300126: Leaf38 1
+    2300128: Leaf39
+    2300130: Leaf39 1
+    2300132: Leaf40
+    2300134: Leaf40 1
+    2300136: Leaf41
+    2300138: Leaf41 1
+    2300140: Leaf42
+    2300142: Leaf42 1
+    2300144: Leaf43
+    2300146: Leaf43 1
+    2300148: Leaves 1
+    2300150: Leaves 2
+    2300152: Leaves1 1
+    2300154: Leaves2 1
+    2300156: Leaf44
+    2300158: Leaf45
+    2300160: Leaf46
+    2300162: Leaf47
+    2300164: Leaves3
+    2300166: Leaves4
+    2300168: Leaves10
+    2300170: Leaves11
+    2300172: Leaves5
+    2300174: Leaves6
+    2300176: Leaves7
+    2300178: Leaves8
+    2300180: Leaves9
+    3300000: Copter
+    3300002: Seed
+    3300004: Branch
+    3300006: Branch1
+    3300008: Branch2
+    3300010: pCube3
+    3300012: Trunk
+    3300014: Branch3
+    3300016: Branch10
+    3300018: Branch11
+    3300020: Branch4
+    3300022: Branch5
+    3300024: Branch6
+    3300026: Branch7
+    3300028: Branch8
+    3300030: Branch9
+    3300032: Copter 1
+    3300034: Trunk1
+    3300036: Branch12
+    3300038: Branch13
+    3300040: Branch14
+    3300042: Trunk2
+    3300044: Branch15
+    3300046: Branch16
+    3300048: RightCopter
+    3300050: Branch19
+    3300052: Branch20
+    3300054: Branch21
+    3300056: Branch22
+    3300058: Branch23
+    3300060: Branch24
+    3300062: Branch25
+    3300064: Branch33
+    3300066: Branch34
+    3300068: Branch35
+    3300070: Branch36
+    3300072: Branch37
+    3300074: Branch38
+    3300076: Branch39
+    3300078: Leaf17
+    3300080: Leaf18
+    3300082: Leaf19
+    3300084: Leaf20
+    3300086: Leaf21
+    3300088: Leaf22
+    3300090: Leaf23
+    3300092: Leaf24
+    3300094: Leaf7
+    3300096: Leaf25
+    3300098: Leaf26
+    3300100: Leaf27
+    3300102: Leaf28
+    3300104: Leaf29
+    3300106: Leaf30
+    3300108: Leaf31
+    3300110: Leaf32
+    3300112: Leaves
+    3300114: Tree
+    3300116: Leaves1
+    3300118: Leaves2
+    3300120: Leaf33
+    3300122: Leaf33 1
+    3300124: Leaf38
+    3300126: Leaf38 1
+    3300128: Leaf39
+    3300130: Leaf39 1
+    3300132: Leaf40
+    3300134: Leaf40 1
+    3300136: Leaf41
+    3300138: Leaf41 1
+    3300140: Leaf42
+    3300142: Leaf42 1
+    3300144: Leaf43
+    3300146: Leaf43 1
+    3300148: Leaves 1
+    3300150: Leaves 2
+    3300152: Leaves1 1
+    3300154: Leaves2 1
+    3300156: Leaf44
+    3300158: Leaf45
+    3300160: Leaf46
+    3300162: Leaf47
+    3300164: Leaves3
+    3300166: Leaves4
+    3300168: Leaves10
+    3300170: Leaves11
+    3300172: Leaves5
+    3300174: Leaves6
+    3300176: Leaves7
+    3300178: Leaves8
+    3300180: Leaves9
+    4300000: Seed
+    4300002: Copter
+    4300004: Trunk
+    4300006: Branch2
+    4300008: Branch1
+    4300010: pCube3
+    4300012: Branch
+    4300014: Branch3
+    4300016: Branch4
+    4300018: Branch5
+    4300020: Branch6
+    4300022: Branch7
+    4300024: Branch8
+    4300026: Trunk1
+    4300028: Branch9
+    4300030: Branch10
+    4300032: Branch11
+    4300034: Trunk2
+    4300036: Branch12
+    4300038: Branch13
+    4300040: Branch14
+    4300042: Branch15
+    4300044: Branch16
+    4300046: RightCopter
+    4300048: Branch19
+    4300050: Branch20
+    4300052: Branch21
+    4300054: Branch22
+    4300056: Branch23
+    4300058: Branch24
+    4300060: Branch25
+    4300062: Branch33
+    4300064: Branch34
+    4300066: Branch35
+    4300068: Branch36
+    4300070: Branch37
+    4300072: Branch38
+    4300074: Branch39
+    4300076: Leaf7
+    4300078: Leaf17
+    4300080: Leaf18
+    4300082: Leaf19
+    4300084: Leaf20
+    4300086: Leaf21
+    4300088: Leaf22
+    4300090: Leaf23
+    4300092: Leaf24
+    4300094: Tree
+    4300096: Leaves
+    4300098: Leaf25
+    4300100: Leaf26
+    4300102: Leaf27
+    4300104: Leaf28
+    4300106: Leaf29
+    4300108: Leaf30
+    4300110: Leaf31
+    4300112: Leaf32
+    4300114: Leaves1
+    4300116: Leaves2
+    4300118: Leaf43
+    4300120: Leaf42
+    4300122: Leaf41
+    4300124: Leaf40
+    4300126: Leaf39
+    4300128: Leaf38
+    4300130: Leaf33
+    4300132: Leaf43
+    4300134: Leaf42
+    4300136: Leaf41
+    4300138: Leaf40
+    4300140: Leaf39
+    4300142: Leaves2
+    4300144: Leaf38
+    4300146: Leaves1
+    4300148: Leaves
+    4300150: Leaf33
+    4300152: Leaves3
+    4300154: Leaves4
+    4300156: Leaf44
+    4300158: Leaf45
+    4300160: Leaf46
+    4300162: Leaf47
+    4300164: Leaves5
+    4300166: Leaves6
+    4300168: Leaves7
+    4300170: Leaves8
+    4300172: Leaves9
+    4300174: Leaves10
+    4300176: Leaves11
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

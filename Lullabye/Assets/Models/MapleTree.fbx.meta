@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 41b3ee278b6f65e479cc0eb83844c264
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Branch
+    100002: Branch1
+    100004: Branch10
+    100006: Branch11
+    100008: Branch2
+    100010: Branch3
+    100012: Branch6
+    100014: Branch7
+    100016: Branch8
+    100018: Branch9
+    100020: //RootNode
+    100022: Trunk
+    100024: Trunk1
+    100026: Branch15
+    100028: Branch16
+    100030: Leaves
+    100032: Ground
+    100034: Leaf33
+    100036: Leaf33 1
+    100038: Leaf38
+    100040: Leaf38 1
+    100042: Leaf39
+    100044: Leaf39 1
+    100046: Leaf40
+    100048: Leaf40 1
+    100050: Leaf41
+    100052: Leaf41 1
+    100054: Leaf42
+    100056: Leaf42 1
+    100058: Leaf43
+    100060: Leaf43 1
+    100062: Leaves 1
+    100064: Leaves 2
+    100066: Leaves1
+    100068: Leaves1 1
+    100070: Leaves2
+    100072: Leaves2 1
+    100074: Tree
+    100076: Leaf44
+    100078: Leaf45
+    100080: Leaf46
+    100082: Leaf47
+    100084: Leaves3
+    100086: Leaves4
+    100088: Leaves10
+    100090: Leaves11
+    100092: Leaves5
+    100094: Leaves6
+    100096: Leaves7
+    100098: Leaves8
+    100100: Leaves9
+    400000: Branch
+    400002: Branch1
+    400004: Branch10
+    400006: Branch11
+    400008: Branch2
+    400010: Branch3
+    400012: Branch6
+    400014: Branch7
+    400016: Branch8
+    400018: Branch9
+    400020: //RootNode
+    400022: Trunk
+    400024: Trunk1
+    400026: Branch15
+    400028: Branch16
+    400030: Leaves
+    400032: Ground
+    400034: Leaf33
+    400036: Leaf33 1
+    400038: Leaf38
+    400040: Leaf38 1
+    400042: Leaf39
+    400044: Leaf39 1
+    400046: Leaf40
+    400048: Leaf40 1
+    400050: Leaf41
+    400052: Leaf41 1
+    400054: Leaf42
+    400056: Leaf42 1
+    400058: Leaf43
+    400060: Leaf43 1
+    400062: Leaves 1
+    400064: Leaves 2
+    400066: Leaves1
+    400068: Leaves1 1
+    400070: Leaves2
+    400072: Leaves2 1
+    400074: Tree
+    400076: Leaf44
+    400078: Leaf45
+    400080: Leaf46
+    400082: Leaf47
+    400084: Leaves3
+    400086: Leaves4
+    400088: Leaves10
+    400090: Leaves11
+    400092: Leaves5
+    400094: Leaves6
+    400096: Leaves7
+    400098: Leaves8
+    400100: Leaves9
+    2100000: lambert1
+    2100002: lambert2
+    2300000: Branch
+    2300002: Branch1
+    2300004: Branch10
+    2300006: Branch11
+    2300008: Branch2
+    2300010: Branch3
+    2300012: Branch6
+    2300014: Branch7
+    2300016: Branch8
+    2300018: Branch9
+    2300020: Trunk
+    2300022: Trunk1
+    2300024: Branch15
+    2300026: Branch16
+    2300028: Leaves
+    2300030: //RootNode
+    2300032: Leaf33
+    2300034: Leaf33 1
+    2300036: Leaf38
+    2300038: Leaf38 1
+    2300040: Leaf39
+    2300042: Leaf39 1
+    2300044: Leaf40
+    2300046: Leaf40 1
+    2300048: Leaf41
+    2300050: Leaf41 1
+    2300052: Leaf42
+    2300054: Leaf42 1
+    2300056: Leaf43
+    2300058: Leaf43 1
+    2300060: Leaves 1
+    2300062: Leaves 2
+    2300064: Leaves1
+    2300066: Leaves1 1
+    2300068: Leaves2
+    2300070: Leaves2 1
+    2300072: Tree
+    2300074: Leaf44
+    2300076: Leaf45
+    2300078: Leaf46
+    2300080: Leaf47
+    2300082: Leaves3
+    2300084: Leaves4
+    2300086: Leaves10
+    2300088: Leaves11
+    2300090: Leaves5
+    2300092: Leaves6
+    2300094: Leaves7
+    2300096: Leaves8
+    2300098: Leaves9
+    3300000: Branch
+    3300002: Branch1
+    3300004: Branch10
+    3300006: Branch11
+    3300008: Branch2
+    3300010: Branch3
+    3300012: Branch6
+    3300014: Branch7
+    3300016: Branch8
+    3300018: Branch9
+    3300020: Trunk
+    3300022: Trunk1
+    3300024: Branch15
+    3300026: Branch16
+    3300028: Leaves
+    3300030: //RootNode
+    3300032: Leaf33
+    3300034: Leaf33 1
+    3300036: Leaf38
+    3300038: Leaf38 1
+    3300040: Leaf39
+    3300042: Leaf39 1
+    3300044: Leaf40
+    3300046: Leaf40 1
+    3300048: Leaf41
+    3300050: Leaf41 1
+    3300052: Leaf42
+    3300054: Leaf42 1
+    3300056: Leaf43
+    3300058: Leaf43 1
+    3300060: Leaves 1
+    3300062: Leaves 2
+    3300064: Leaves1
+    3300066: Leaves1 1
+    3300068: Leaves2
+    3300070: Leaves2 1
+    3300072: Tree
+    3300074: Leaf44
+    3300076: Leaf45
+    3300078: Leaf46
+    3300080: Leaf47
+    3300082: Leaves3
+    3300084: Leaves4
+    3300086: Leaves10
+    3300088: Leaves11
+    3300090: Leaves5
+    3300092: Leaves6
+    3300094: Leaves7
+    3300096: Leaves8
+    3300098: Leaves9
+    4300000: Branch9
+    4300002: Branch10
+    4300004: Trunk1
+    4300006: Branch8
+    4300008: Branch7
+    4300010: Branch6
+    4300012: Branch3
+    4300014: Branch1
+    4300016: Branch2
+    4300018: Trunk
+    4300020: Branch11
+    4300022: Branch
+    4300024: Branch15
+    4300026: Branch16
+    4300028: Tree
+    4300030: Leaves
+    4300032: Leaf43
+    4300034: Leaf42
+    4300036: Leaf41
+    4300038: Leaf40
+    4300040: Leaf39
+    4300042: Leaves2
+    4300044: Leaf38
+    4300046: Leaves1
+    4300048: Leaf33
+    4300050: Leaf43
+    4300052: Leaf42
+    4300054: Leaf41
+    4300056: Leaf40
+    4300058: Leaf39
+    4300060: Leaves2
+    4300062: Leaf38
+    4300064: Leaves1
+    4300066: Leaves
+    4300068: Leaf33
+    4300070: Leaves3
+    4300072: Leaves4
+    4300074: Leaf44
+    4300076: Leaf45
+    4300078: Leaf46
+    4300080: Leaf47
+    4300082: Leaves5
+    4300084: Leaves6
+    4300086: Leaves7
+    4300088: Leaves8
+    4300090: Leaves9
+    4300092: Leaves10
+    4300094: Leaves11
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
