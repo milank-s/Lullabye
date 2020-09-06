@@ -68,7 +68,7 @@ public class DuckController : MonoBehaviour
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-            if (timeUntilPause < 0)
+            if (Vector3.Distance(transform.position, target) < 0.1f)
             {
                 moving = false;
                 timeUntilMove = moveTime;
@@ -97,7 +97,7 @@ public class DuckController : MonoBehaviour
                 {
                     if (!hasCopter)
                     {
-                        hasCopter = true;
+//                        hasCopter = true;
                         Vector3 copterPos = tree.curCopter.transform.position;
                         copterPos.y = transform.position.y;
                         Vector3 treeBase = tree.transform.position;
@@ -113,7 +113,7 @@ public class DuckController : MonoBehaviour
                     }
                     else
                     {
-                        hasCopter = true;
+//                        hasCopter = true;
                         Vector3 copterPos = tree.curCopter.transform.position;
                         copterPos.y = transform.position.y;
                         Vector3 treeBase = tree.transform.position;
