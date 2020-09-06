@@ -7,6 +7,46 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioHelm" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AudioHelmClockUI.cs" t="Include" />
+            <e p="HelmAudioInitUI.cs" t="Include" />
+            <e p="HelmControllerUI.cs" t="Include" />
+            <e p="HelmParamterListUI.cs" t="Include" />
+            <e p="HelmPatchUI.cs" t="Include" />
+            <e p="HelmSequencerUI.cs" t="Include" />
+            <e p="HelmSynthUI.cs" t="Include" />
+            <e p="KeyboardUI.cs" t="Include" />
+            <e p="KeyzoneEditorUI.cs" t="Include" />
+            <e p="MidiFileUI.cs" t="Include" />
+            <e p="PatchBrowserUI.cs" t="Include" />
+            <e p="SamplerUI.cs" t="Include" />
+            <e p="SampleSequencerUI.cs" t="Include" />
+            <e p="SequencerPositionUI.cs" t="Include" />
+            <e p="SequencerUI.cs" t="Include" />
+            <e p="SequencerVelocityUI.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AudioHelmClock.cs" t="Include" />
+            <e p="HelmAudioInit.cs" t="Include" />
+            <e p="HelmAudioReceive.cs" t="Include" />
+            <e p="HelmController.cs" t="Include" />
+            <e p="HelmParameter.cs" t="Include" />
+            <e p="HelmPatch.cs" t="Include" />
+            <e p="HelmPatchFormat.cs" t="Include" />
+            <e p="HelmSequencer.cs" t="Include" />
+            <e p="Keyzone.cs" t="Include" />
+            <e p="MidiFile.cs" t="Include" />
+            <e p="Native.cs" t="Include" />
+            <e p="Note.cs" t="Include" />
+            <e p="NoteHandler.cs" t="Include" />
+            <e p="NoteRow.cs" t="Include" />
+            <e p="Sampler.cs" t="Include" />
+            <e p="SampleSequencer.cs" t="Include" />
+            <e p="Sequencer.cs" t="Include" />
+            <e p="Utils.cs" t="Include" />
+          </e>
+        </e>
         <e p="Mapbox" t="Include">
           <e p="Core" t="Include">
             <e p="cheap-ruler-cs" t="Include">
@@ -575,7 +615,15 @@
             <e p="KRZ.shader" t="Include" />
             <e p="KRZcull.shader" t="Include" />
             <e p="pb_StandardVertexColor.shader" t="Include" />
+            <e p="SoftLight.shader" t="Include" />
             <e p="SpriteWithShadows.shader" t="Include" />
+          </e>
+        </e>
+        <e p="packages" t="Include">
+          <e p="Raw Mocap Data" t="Include">
+            <e p="Animations" t="Include">
+              <e p="_CompleteAnimationList.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Resources" t="Include">
@@ -588,6 +636,7 @@
           <e p="Airplanes.cs" t="Include" />
           <e p="Breathe.cs" t="Include" />
           <e p="CarLights.cs" t="Include" />
+          <e p="DuckController.cs" t="Include" />
           <e p="Earth.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
           <e p="Manager.cs" t="Include" />
@@ -602,6 +651,7 @@
             <e p="SimpleJSONBinary.cs" t="Include" />
             <e p="SimpleJSONUnity.cs" t="Include" />
           </e>
+          <e p="SynthSound.cs" t="Include" />
           <e p="Tree.cs" t="Include" />
         </e>
         <e p="ThirdPartyAssets" t="Include">
