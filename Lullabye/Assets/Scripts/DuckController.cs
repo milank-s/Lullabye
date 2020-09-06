@@ -68,8 +68,9 @@ public class DuckController : MonoBehaviour
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-            if (Vector3.Distance(transform.position, target) < 0.1f)
+            if ((hasCopter && Vector3.Distance(transform.position, target) < 0.1f) || (!hasCopter && timeUntilPause < 0))
             {
+                
                 moving = false;
                 timeUntilMove = moveTime;
                 r.sprite = idle[0];
@@ -95,9 +96,7 @@ public class DuckController : MonoBehaviour
                 
                 if (tree.curCopter != null && tree.curCopter.falling)
                 {
-                    if (!hasCopter)
-                    {
-//                        hasCopter = true;
+                        hasCopter = true;
                         Vector3 copterPos = tree.curCopter.transform.position;
                         copterPos.y = transform.position.y;
                         Vector3 treeBase = tree.transform.position;
@@ -110,26 +109,42 @@ public class DuckController : MonoBehaviour
                         target.y = 0;
                         target = target.normalized * distanceToTree;
                         target.y = transform.position.y;
-                    }
-                    else
-                    {
+
+//                    if (!hasCopter)
+//                    {
 //                        hasCopter = true;
-                        Vector3 copterPos = tree.curCopter.transform.position;
-                        copterPos.y = transform.position.y;
-                        Vector3 treeBase = tree.transform.position;
-                        treeBase.y = transform.position.y;
-
-                        float distanceToTree = (copterPos - treeBase).magnitude;
-                        
-                        Vector3 myPos = transform.position;
-                        treeBase.y = transform.position.y;
-
-                        Vector3 diff = myPos - treeBase;
-                        target = diff;
-                        target.y = 0;
-                        target = target.normalized * distanceToTree;
-                        target.y = transform.position.y;
-                    }
+//                        Vector3 copterPos = tree.curCopter.transform.position;
+//                        copterPos.y = transform.position.y;
+//                        Vector3 treeBase = tree.transform.position;
+//                        treeBase.y = transform.position.y;
+//
+//                        Vector3 diff = copterPos - treeBase;
+//                        float distanceToTree = diff.magnitude;
+//                        target = Random.onUnitSphere;
+//                        //target = diff;
+//                        target.y = 0;
+//                        target = target.normalized * distanceToTree;
+//                        target.y = transform.position.y;
+//                    }
+//                    else if(false)
+//                    {
+//                        hasCopter = true;
+//                        Vector3 copterPos = tree.curCopter.transform.position;
+//                        copterPos.y = transform.position.y;
+//                        Vector3 treeBase = tree.transform.position;
+//                        treeBase.y = transform.position.y;
+//
+//                        float distanceToTree = (copterPos - treeBase).magnitude;
+//                        
+//                        Vector3 myPos = transform.position;
+//                        treeBase.y = transform.position.y;
+//
+//                        Vector3 diff = myPos - treeBase;
+//                        target = diff;
+//                        target.y = 0;
+//                        target = target.normalized * distanceToTree;
+//                        target.y = transform.position.y;
+//                    }
                 }
                 else
                 {

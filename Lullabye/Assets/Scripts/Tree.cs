@@ -381,7 +381,7 @@ public class Tree : MonoBehaviour
 //      copterCam.transform.forward
       int sign = curCopter.lefty ? 1 : -1;
       Transform c = curCopter.transform;
-      float clip = Mathf.Lerp(clipPlaneZoom, clipDistance, 1-(curCopter.transform.position.y/15));
+      float clip = Mathf.Lerp(clipPlaneZoom, clipDistance, 1-(curCopter.transform.position.y/20));
       
       mainCam.nearClipPlane = Mathf.Lerp(mainCam.nearClipPlane, clip, Time.deltaTime /2f);
       mainCam.transform.parent.position = Vector3.SmoothDamp(mainCam.transform.parent.position, new Vector3(transform.position.x, c.position.y + 4f + Mathf.Clamp01(1-(curCopter.transform.position.y/20)) * 10f , transform.position.z), ref velocity, 0.3f);
