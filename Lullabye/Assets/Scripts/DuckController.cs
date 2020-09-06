@@ -114,13 +114,17 @@ public class DuckController : MonoBehaviour
                     else
                     {
                         hasCopter = true;
-                        Vector3 myPos = transform.position;
-                        myPos.y = transform.position.y;
+                        Vector3 copterPos = tree.curCopter.transform.position;
+                        copterPos.y = transform.position.y;
                         Vector3 treeBase = tree.transform.position;
                         treeBase.y = transform.position.y;
 
+                        float distanceToTree = (copterPos - treeBase).magnitude;
+                        
+                        Vector3 myPos = transform.position;
+                        treeBase.y = transform.position.y;
+
                         Vector3 diff = myPos - treeBase;
-                        float distanceToTree = diff.magnitude;
                         target = diff;
                         target.y = 0;
                         target = target.normalized * distanceToTree;
@@ -181,7 +185,6 @@ public class DuckController : MonoBehaviour
     IEnumerator HitDuck(MapleCopter c)
     {
         hasCopter = false;
-        surpriseAnim.transform.position = c.transform.position;
         surpriseAnim.SetTrigger("surprise");
         c.falling = false;
         

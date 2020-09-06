@@ -34,6 +34,7 @@ public class MapleCopter : MonoBehaviour
     private bool lostControl;
     private Vector3 lastPos;
     private float xMovement;
+
     private Vector3 velocity;
     // Start is called before the first frame update
     void Start()
@@ -114,7 +115,7 @@ public class MapleCopter : MonoBehaviour
 
         if (isPlayer)
         {
-            GetComponent<Rigidbody>().isKinematic = false;
+            r.isKinematic = false;
         }
         flying = true;
     }
@@ -155,9 +156,11 @@ public class MapleCopter : MonoBehaviour
             if (!lostControl)
             {
                 fallingCoefficient = Mathf.Abs(Vector3.Dot(child.right, Vector3.up));
+                r.velocity = Vector3.zero;
             }
             else
             {
+                
                 loseControlTimer -= Time.deltaTime;
                 fallingCoefficient = Mathf.Lerp(fallingCoefficient, 2 -loseControlNormalized, Time.deltaTime * 10);
                 if (loseControlTimer < 0 && lostControl)
@@ -222,8 +225,8 @@ public class MapleCopter : MonoBehaviour
 
     public void RagdollOn()
     {
-        GetComponent<Rigidbody>().isKinematic = false;
-        GetComponent<Rigidbody>().useGravity = true;
+        r.isKinematic = false;
+        r.useGravity = true;
     }
     
     void CheckFloor()
@@ -251,7 +254,7 @@ public class MapleCopter : MonoBehaviour
             Tree.instance.GetNextCopter();
         }
 
-        GetComponent<Rigidbody>().isKinematic = true;
+        r.isKinematic = true;
         
         this.enabled = false;
     }
