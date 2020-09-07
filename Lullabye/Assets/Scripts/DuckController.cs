@@ -73,11 +73,13 @@ public class DuckController : MonoBehaviour
 
         surpriseAnim.transform.forward = -tree.mainCam.transform.forward;
         
+        Vector3 toTargetFromCam = target - tree.mainCam.transform.position;
+       
         if (toTarget.magnitude > 0.1f)
         {
           
-            Vector3 localDirToTarget = transform.InverseTransformDirection(toTarget);
-            if (localDirToTarget.x > 0)
+            toTargetFromCam = tree.mainCam.transform.InverseTransformDirection(toTarget);
+            if (toTargetFromCam.x > 0)
             {
                 r.flipX = false;
             }
@@ -121,7 +123,7 @@ public class DuckController : MonoBehaviour
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-            if ((hasCopter && Vector3.Distance(transform.position, target) < 0.1f) || (!hasCopter && timeUntilPause < 0))
+            if ((Vector3.Distance(transform.position, target) < 0.1f) || (!hasCopter && timeUntilPause < 0))
             {
                 
                 moving = false;
