@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4088724391658677923}
   - component: {fileID: 4088724391659775075}
   - component: {fileID: 3854447425245776154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4088724391662069379}
   - component: {fileID: 1555232589}
   - component: {fileID: 6288654250021007637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Copter
   m_TagString: copter
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 962772426156462355}
   - component: {fileID: 642350358076306086}
   - component: {fileID: 4389439183346742633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4936,7 +4936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4730047286405023285}
   - component: {fileID: 2150019113299490281}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trail (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5064,7 +5064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4163244835242934953}
   - component: {fileID: 3437273077453249865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'tick '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5190,7 +5190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8998708941928701244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5222,7 +5222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7332748442525775465}
   - component: {fileID: 8074861085604175256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5350,7 +5350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8411628076687857501}
   - component: {fileID: 4817984779256793396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trail (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

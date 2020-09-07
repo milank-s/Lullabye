@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3a70ec-bb5e-4ff6-a8d8-851466c0016e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Copter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Copter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LeftCopter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LeftCopter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapleCopter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapleCopter.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DuckController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DuckController.cs" afterDir="false" />
     </list>
@@ -111,40 +113,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DuckController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+            <state relative-caret-position="873">
+              <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
               <folding>
-                <marker date="1599442575943" expanded="false" signature="6:78" ph="..." />
-                <marker date="1599442575943" expanded="true" signature="123:8123" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="961:1000" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1018:7086" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1419:1485" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1502:1567" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1696:1875" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1782:1845" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1904:3555" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="1940:2123" ph="/* Vector3 lookDir = target - transform.position; ... */" />
-                <marker date="1599442575943" expanded="true" signature="2167:2815" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="2215:2297" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="2318:2397" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="2532:2605" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="2626:2698" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="3090:3532" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="3353:3518" ph="/* Vector3 lookPos = tree.mainCam.transform.position; ... */" />
-                <marker date="1599442575943" expanded="true" signature="3568:6844" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="3640:6788" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="3816:6261" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="4528:6243" ph="/* if (!hasCopter) ... */" />
-                <marker date="1599442575943" expanded="true" signature="6282:6444" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="6506:6588" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="6609:6688" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="6916:7071" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="7135:7606" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="7286:7599" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="7646:8121" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="7789:7919" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="7932:7983" ph="{...}" />
-                <marker date="1599442575943" expanded="true" signature="8070:8115" ph="{...}" />
+                <marker date="1599443336758" expanded="false" signature="6:78" ph="..." />
+                <marker date="1599443336758" expanded="true" signature="123:8446" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="961:1000" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1018:7409" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1428:1611" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1476:1559" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1628:1811" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1677:1760" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="1943:2255" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2090:2151" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2168:2228" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2287:2466" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2373:2436" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2495:3733" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2506:2689" ph="/* Vector3 lookDir = target - transform.position; ... */" />
+                <marker date="1599443336758" expanded="true" signature="2733:2993" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2781:2863" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="2884:2963" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="3268:3710" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="3531:3696" ph="/* Vector3 lookPos = tree.mainCam.transform.position; ... */" />
+                <marker date="1599443336758" expanded="true" signature="3746:7022" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="3818:6966" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="3994:6439" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="4706:6421" ph="/* if (!hasCopter) ... */" />
+                <marker date="1599443336758" expanded="true" signature="6460:6622" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="6684:6766" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="6787:6866" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7094:7394" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7182:7253" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7270:7341" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7458:7929" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7609:7922" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="7969:8444" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="8112:8242" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="8255:8306" ph="{...}" />
+                <marker date="1599443336758" expanded="true" signature="8393:8438" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -333,12 +340,12 @@
       <workItem from="1599107417155" duration="13384000" />
       <workItem from="1599287147364" duration="12169000" />
       <workItem from="1599336631655" duration="10005000" />
-      <workItem from="1599424913314" duration="3106000" />
+      <workItem from="1599424913314" duration="3866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130074000" />
+    <option name="totallyTimeSpent" value="130834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,40 +803,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DuckController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+        <state relative-caret-position="873">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
           <folding>
-            <marker date="1599442575943" expanded="false" signature="6:78" ph="..." />
-            <marker date="1599442575943" expanded="true" signature="123:8123" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="961:1000" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1018:7086" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1419:1485" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1502:1567" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1696:1875" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1782:1845" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1904:3555" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="1940:2123" ph="/* Vector3 lookDir = target - transform.position; ... */" />
-            <marker date="1599442575943" expanded="true" signature="2167:2815" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="2215:2297" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="2318:2397" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="2532:2605" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="2626:2698" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="3090:3532" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="3353:3518" ph="/* Vector3 lookPos = tree.mainCam.transform.position; ... */" />
-            <marker date="1599442575943" expanded="true" signature="3568:6844" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="3640:6788" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="3816:6261" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="4528:6243" ph="/* if (!hasCopter) ... */" />
-            <marker date="1599442575943" expanded="true" signature="6282:6444" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="6506:6588" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="6609:6688" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="6916:7071" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="7135:7606" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="7286:7599" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="7646:8121" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="7789:7919" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="7932:7983" ph="{...}" />
-            <marker date="1599442575943" expanded="true" signature="8070:8115" ph="{...}" />
+            <marker date="1599443336758" expanded="false" signature="6:78" ph="..." />
+            <marker date="1599443336758" expanded="true" signature="123:8446" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="961:1000" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1018:7409" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1428:1611" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1476:1559" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1628:1811" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1677:1760" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="1943:2255" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2090:2151" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2168:2228" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2287:2466" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2373:2436" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2495:3733" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2506:2689" ph="/* Vector3 lookDir = target - transform.position; ... */" />
+            <marker date="1599443336758" expanded="true" signature="2733:2993" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2781:2863" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="2884:2963" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="3268:3710" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="3531:3696" ph="/* Vector3 lookPos = tree.mainCam.transform.position; ... */" />
+            <marker date="1599443336758" expanded="true" signature="3746:7022" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="3818:6966" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="3994:6439" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="4706:6421" ph="/* if (!hasCopter) ... */" />
+            <marker date="1599443336758" expanded="true" signature="6460:6622" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="6684:6766" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="6787:6866" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7094:7394" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7182:7253" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7270:7341" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7458:7929" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7609:7922" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="7969:8444" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="8112:8242" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="8255:8306" ph="{...}" />
+            <marker date="1599443336758" expanded="true" signature="8393:8438" ph="{...}" />
           </folding>
         </state>
       </provider>

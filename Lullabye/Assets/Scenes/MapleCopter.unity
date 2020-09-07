@@ -6846,6 +6846,11 @@ PrefabInstance:
       propertyPath: pauseTime
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7849107714563708243, guid: 527e3a6a2c2e11e4d80a645117f41639,
+        type: 3}
+      propertyPath: framerate
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7849107714563708246, guid: 527e3a6a2c2e11e4d80a645117f41639,
         type: 3}
       propertyPath: m_Name
@@ -7729,7 +7734,7 @@ PrefabInstance:
     - target: {fileID: 8294035929482158373, guid: 7409bb8eb6b95b145a8bb6e56ce7cc5f,
         type: 3}
       propertyPath: copterZoom
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8294035929482158373, guid: 7409bb8eb6b95b145a8bb6e56ce7cc5f,
         type: 3}

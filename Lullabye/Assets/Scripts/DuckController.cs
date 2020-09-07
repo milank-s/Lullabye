@@ -52,19 +52,42 @@ public class DuckController : MonoBehaviour
         camForward.Normalize();
         
         
+        
             if (Vector3.Dot(toTarget, -camForward) < 0)
             {
+                if (facingCamera)
+                {
+                    interval = 1f / framerate;
+                }
                 facingCamera = false;
             }
             else
             {
+                if (!facingCamera)
+                {
+                    interval = 1f / framerate;
+                }
                 facingCamera = true;
             }
         
 
         surpriseAnim.transform.forward = -tree.mainCam.transform.forward;
         
-            
+        if (toTarget.magnitude > 0.1f)
+        {
+          
+            Vector3 localDirToTarget = transform.InverseTransformDirection(toTarget);
+            if (localDirToTarget.x > 0)
+            {
+                r.flipX = false;
+            }
+            else
+            {
+                r.flipX = true;
+            }
+                
+        }
+        
         if (hitCopter)
         {
             hitInterval -= Time.deltaTime;
@@ -77,9 +100,6 @@ public class DuckController : MonoBehaviour
         
         if (moving)
         {
-
-          
-            
 //            Vector3 lookDir = target - transform.position;
 //
 //            if (lookDir.magnitude > 0)
@@ -96,21 +116,7 @@ public class DuckController : MonoBehaviour
                 else
                 {
                     curSprites = walkBack;
-                }
-
-                Vector3 localDirToTarget = transform.InverseTransformDirection(toTarget);
-                if (localDirToTarget.x > 0)
-                {
-                    r.flipX = false;
-                }
-                else
-                {
-                    r.flipX = true;
-                }
-                
-                interval = 1f / framerate;
-                r.sprite = curSprites[0];
-
+                }                
             }
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
@@ -123,7 +129,7 @@ public class DuckController : MonoBehaviour
                 r.sprite = idle[0];
                 curSprites = idle;
                 index = 0;
-                interval = 1f / framerate;
+                interval = 2f / framerate;
                
 //                Vector3 lookPos = tree.mainCam.transform.position;
 //                lookPos.y = transform.position.y;
@@ -222,7 +228,15 @@ public class DuckController : MonoBehaviour
         {
             index = (index + 1) % curSprites.Length;
 
-            interval = 1f / framerate;
+            if (moving)
+            {
+                interval = 1f / framerate;
+            }
+            else
+            {
+                interval = 2f / framerate;
+            }
+
             r.sprite = curSprites[index];
         }
         
