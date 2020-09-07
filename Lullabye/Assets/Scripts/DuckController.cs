@@ -35,6 +35,11 @@ public class DuckController : MonoBehaviour
 
     private Vector3 dirToCamera;
     // Update is called once per frame
+
+    void Start()
+    {
+        curSprites = idle;
+    }
     void Update()
     {
         Vector3 toCam = transform.position - tree.mainCam.transform.position;
@@ -45,9 +50,9 @@ public class DuckController : MonoBehaviour
         Vector3 camForward = tree.mainCam.transform.forward;
         camForward.y = 0;
         camForward.Normalize();
-        if (toTarget.magnitude > 0.1f)
-        {
-            if (Vector3.Dot(toTarget, camForward) < 0)
+        
+        
+            if (Vector3.Dot(toTarget, -camForward) < 0)
             {
                 facingCamera = false;
             }
@@ -55,7 +60,7 @@ public class DuckController : MonoBehaviour
             {
                 facingCamera = true;
             }
-        }
+        
 
         surpriseAnim.transform.forward = -tree.mainCam.transform.forward;
         
@@ -73,6 +78,8 @@ public class DuckController : MonoBehaviour
         if (moving)
         {
 
+          
+            
 //            Vector3 lookDir = target - transform.position;
 //
 //            if (lookDir.magnitude > 0)
@@ -80,15 +87,31 @@ public class DuckController : MonoBehaviour
 //                transform.forward = lookDir;
 //            }
 
-            if (facingCamera)
+            if (toTarget.magnitude > 0.1f)
             {
-                curSprites = walkForward;
+                if (facingCamera)
+                {
+                    curSprites = walkForward;
+                }
+                else
+                {
+                    curSprites = walkBack;
+                }
+
+                Vector3 localDirToTarget = transform.InverseTransformDirection(toTarget);
+                if (localDirToTarget.x > 0)
+                {
+                    r.flipX = false;
+                }
+                else
+                {
+                    r.flipX = true;
+                }
+                
+                interval = 1f / framerate;
+                r.sprite = curSprites[0];
+
             }
-            else
-            {
-                curSprites = walkBack;
-            }
-            
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
@@ -100,7 +123,7 @@ public class DuckController : MonoBehaviour
                 r.sprite = idle[0];
                 curSprites = idle;
                 index = 0;
-                
+                interval = 1f / framerate;
                
 //                Vector3 lookPos = tree.mainCam.transform.position;
 //                lookPos.y = transform.position.y;
@@ -185,7 +208,7 @@ public class DuckController : MonoBehaviour
                 {
                     curSprites = walkBack;
                 }
-
+                interval = 1f / framerate;
                 r.sprite = curSprites[0];
 
             }
@@ -197,18 +220,12 @@ public class DuckController : MonoBehaviour
         
         if (interval < 0)
         {
-            index++;
-            if (index >= curSprites.Length)
-            {
-                index = 0;
-            }
+            index = (index + 1) % curSprites.Length;
 
             interval = 1f / framerate;
             r.sprite = curSprites[index];
         }
         
-        
-
     }
 
     public void OnCollisionEnter(Collision col)
