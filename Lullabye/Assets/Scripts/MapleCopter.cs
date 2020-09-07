@@ -231,7 +231,7 @@ public class MapleCopter : MonoBehaviour
     
     void CheckFloor()
     {
-        if (Tree.instance.col.transform.position.y + 0.2f > child.position.y)
+        if (Tree.instance.col.transform.position.y > child.position.y)
         {
 
             Plant();

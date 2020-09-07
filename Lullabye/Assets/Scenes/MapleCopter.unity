@@ -6851,6 +6851,12 @@ PrefabInstance:
       propertyPath: framerate
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7849107714563708243, guid: 527e3a6a2c2e11e4d80a645117f41639,
+        type: 3}
+      propertyPath: walkBack.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: dc3c35ca4093d7d438544edf5d06eb22,
+        type: 3}
     - target: {fileID: 7849107714563708246, guid: 527e3a6a2c2e11e4d80a645117f41639,
         type: 3}
       propertyPath: m_Name
@@ -7744,7 +7750,7 @@ PrefabInstance:
     - target: {fileID: 8294035929482158373, guid: 7409bb8eb6b95b145a8bb6e56ce7cc5f,
         type: 3}
       propertyPath: clipDistance
-      value: 0
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8294035929482158373, guid: 7409bb8eb6b95b145a8bb6e56ce7cc5f,
         type: 3}

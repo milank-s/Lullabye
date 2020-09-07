@@ -29,6 +29,8 @@ public class DuckController : MonoBehaviour
     private int index;
     public Sprite[] curSprites;
 
+
+    private bool surprise = false;
     private bool facingCamera;
     private bool hasCopter;
     public AudioSource hitSound;
@@ -42,6 +44,8 @@ public class DuckController : MonoBehaviour
     }
     void Update()
     {
+        if (surprise) return;
+        
         Vector3 toCam = transform.position - tree.mainCam.transform.position;
         toCam.y = 0;
         transform.right = toCam;
@@ -50,8 +54,6 @@ public class DuckController : MonoBehaviour
         Vector3 camForward = tree.mainCam.transform.forward;
         camForward.y = 0;
         camForward.Normalize();
-        
-        
         
             if (Vector3.Dot(toTarget, -camForward) < 0)
             {
@@ -251,16 +253,12 @@ public class DuckController : MonoBehaviour
 
         if (c != null && c.isPlayer && c.falling)
         {
-            Vector3 lookPos = -tree.mainCam.transform.forward;
-            transform.LookAt(lookPos);
             
-            r.sprite = hit;
             hitSound.Play();
             c.LoseControl();
             c.RagdollOn();
             StartCoroutine(HitDuck(c));
            
-            
         }
 
     }
@@ -268,13 +266,14 @@ public class DuckController : MonoBehaviour
     IEnumerator HitDuck(MapleCopter c)
     {
         hasCopter = false;
+        surprise = true;
         surpriseAnim.SetTrigger("surprise");
         c.falling = false;
         
         
         if (moving)
         {
-            target = Random.onUnitSphere * Random.Range(1f, 5f);
+            target = Random.onUnitSphere * Random.Range(4f, 10f);
             target.y = transform.position.y;
         }
         else
@@ -283,10 +282,7 @@ public class DuckController : MonoBehaviour
         }
         
         yield return new WaitForSeconds(0.5f);
+        surprise = false;
         
-        if (c.flying)
-        {
-            //c.Plant();
-        }
     }
 }
