@@ -6736,6 +6736,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2449825920598614560, guid: 527e3a6a2c2e11e4d80a645117f41639,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.66352
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449825920598614560, guid: 527e3a6a2c2e11e4d80a645117f41639,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6441827
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449825920598614560, guid: 527e3a6a2c2e11e4d80a645117f41639,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.66352
+      objectReference: {fileID: 0}
     - target: {fileID: 7849107714563708241, guid: 527e3a6a2c2e11e4d80a645117f41639,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6796,16 +6811,6 @@ PrefabInstance:
       propertyPath: tree
       value: 
       objectReference: {fileID: 1044294921}
-    - target: {fileID: 7849107714563708243, guid: 527e3a6a2c2e11e4d80a645117f41639,
-        type: 3}
-      propertyPath: pauseTime
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7849107714563708243, guid: 527e3a6a2c2e11e4d80a645117f41639,
-        type: 3}
-      propertyPath: moveTime
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7849107714563708246, guid: 527e3a6a2c2e11e4d80a645117f41639,
         type: 3}
       propertyPath: m_Name

@@ -7,7 +7,8 @@ public class DuckController : MonoBehaviour
     [SerializeField] private SpriteRenderer r;
 
     public Sprite[] idle;
-    public Sprite[] walk;
+    public Sprite[] walkForward;
+    public Sprite[] walkBack;
     public Sprite hit;
     public Tree tree;
     public float framerate = 0.5f;
@@ -28,23 +29,37 @@ public class DuckController : MonoBehaviour
     private int index;
     public Sprite[] curSprites;
 
+    private bool facingCamera;
     private bool hasCopter;
     public AudioSource hitSound;
 
+    private Vector3 dirToCamera;
     // Update is called once per frame
     void Update()
     {
-        
-        
-        
         Vector3 toCam = transform.position - tree.mainCam.transform.position;
         toCam.y = 0;
         transform.right = toCam;
-        
-        
+
+        Vector3 toTarget = (target - transform.position).normalized;
+        Vector3 camForward = tree.mainCam.transform.forward;
+        camForward.y = 0;
+        camForward.Normalize();
+        if (toTarget.magnitude > 0.1f)
+        {
+            if (Vector3.Dot(toTarget, camForward) < 0)
+            {
+                facingCamera = false;
+            }
+            else
+            {
+                facingCamera = true;
+            }
+        }
+
         surpriseAnim.transform.forward = -tree.mainCam.transform.forward;
         
-        
+            
         if (hitCopter)
         {
             hitInterval -= Time.deltaTime;
@@ -65,6 +80,15 @@ public class DuckController : MonoBehaviour
 //                transform.forward = lookDir;
 //            }
 
+            if (facingCamera)
+            {
+                curSprites = walkForward;
+            }
+            else
+            {
+                curSprites = walkBack;
+            }
+            
             timeUntilPause -= Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
@@ -152,15 +176,24 @@ public class DuckController : MonoBehaviour
                     target.y = transform.position.y;
                 }
 
-                curSprites = walk;
-                r.sprite = walk[0];
                 index = 0;
+                if (facingCamera)
+                {
+                    curSprites = walkForward;
+                }
+                else
+                {
+                    curSprites = walkBack;
+                }
+
+                r.sprite = curSprites[0];
 
             }
 
             timeUntilMove -= Time.deltaTime;
         }
-        
+
+        interval -= Time.deltaTime;
         
         if (interval < 0)
         {
@@ -173,6 +206,8 @@ public class DuckController : MonoBehaviour
             interval = 1f / framerate;
             r.sprite = curSprites[index];
         }
+        
+        
 
     }
 
